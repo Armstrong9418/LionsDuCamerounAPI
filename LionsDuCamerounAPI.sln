@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36930.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LionsDuCamerounAPI", "LionsDuCamerounAPI\LionsDuCamerounAPI.csproj", "{6C54E99E-EE74-49C4-B4FD-0758CAA7D4CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LionsDuCameroun.Models", "LionsDuCameroun.Models\LionsDuCameroun.Models.csproj", "{6DDE75AC-3243-4475-BF87-4C4A91451966}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D0BCE1EB-422F-4B83-8FC9-7F645F086574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LionsDuCameroun.Core", "LionsDuCameroun.Core\LionsDuCameroun.Core.csproj", "{0CD49ADE-BD2E-4BA9-BD1E-AE8C52931145}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C54E99E-EE74-49C4-B4FD-0758CAA7D4CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C54E99E-EE74-49C4-B4FD-0758CAA7D4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C54E99E-EE74-49C4-B4FD-0758CAA7D4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C54E99E-EE74-49C4-B4FD-0758CAA7D4CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DDE75AC-3243-4475-BF87-4C4A91451966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DDE75AC-3243-4475-BF87-4C4A91451966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DDE75AC-3243-4475-BF87-4C4A91451966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DDE75AC-3243-4475-BF87-4C4A91451966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD49ADE-BD2E-4BA9-BD1E-AE8C52931145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD49ADE-BD2E-4BA9-BD1E-AE8C52931145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD49ADE-BD2E-4BA9-BD1E-AE8C52931145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD49ADE-BD2E-4BA9-BD1E-AE8C52931145}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DDE75AC-3243-4475-BF87-4C4A91451966} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0CD49ADE-BD2E-4BA9-BD1E-AE8C52931145} = {D0BCE1EB-422F-4B83-8FC9-7F645F086574}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+		SolutionGuid = {3A01848D-67F1-4A5B-AF47-8952707051BA}
+	EndGlobalSection
+EndGlobal
